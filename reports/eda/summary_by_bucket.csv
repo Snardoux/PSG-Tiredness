@@ -1,0 +1,47 @@
+definition,bucket,kpi,n,mean,ci_low,ci_high
+primary,High (≤3 days),win_rate,28,0.75,0.607143,0.892857
+primary,High (≤3 days),points_per_match,28,2.428571,2.107143,2.714286
+primary,High (≤3 days),implied_win_prob,28,0.665816,0.627238,0.702039
+primary,High (≤3 days),mean_residual,28,0.084185,-0.063486,0.224106
+primary,High (≤3 days),brier,28,0.219705,0.165267,0.27779
+primary,High (≤3 days),roi_flat,28,0.146429,-0.095714,0.392143
+primary,High (≤3 days),sot_diff,28,3.464286,2.178571,4.714286
+primary,Normal (≥4 days),win_rate,83,0.686747,0.60241,0.771084
+primary,Normal (≥4 days),points_per_match,83,2.26506,2.060241,2.46988
+primary,Normal (≥4 days),implied_win_prob,83,0.677672,0.658283,0.696313
+primary,Normal (≥4 days),mean_residual,83,0.009075,-0.072343,0.088991
+primary,Normal (≥4 days),brier,83,0.200011,0.169909,0.230672
+primary,Normal (≥4 days),roi_flat,83,-0.042651,-0.16447,0.077355
+primary,Normal (≥4 days),sot_diff,83,3.361446,2.73494,3.951807
+alt4,High (≤4 days),win_rate,53,0.735849,0.641509,0.830189
+alt4,High (≤4 days),points_per_match,53,2.396226,2.150943,2.622642
+alt4,High (≤4 days),implied_win_prob,53,0.666373,0.637933,0.693651
+alt4,High (≤4 days),mean_residual,53,0.069476,-0.034218,0.168309
+alt4,High (≤4 days),brier,53,0.203051,0.163969,0.244122
+alt4,High (≤4 days),roi_flat,53,0.081698,-0.086415,0.246047
+alt4,High (≤4 days),sot_diff,53,3.509434,2.622642,4.358491
+alt4,Normal (≥5 days),win_rate,58,0.672414,0.568966,0.775862
+alt4,Normal (≥5 days),points_per_match,58,2.224138,1.965517,2.465517
+alt4,Normal (≥5 days),implied_win_prob,58,0.682273,0.661665,0.702647
+alt4,Normal (≥5 days),mean_residual,58,-0.009859,-0.108779,0.088802
+alt4,Normal (≥5 days),brier,58,0.206741,0.170446,0.243301
+alt4,Normal (≥5 days),roi_flat,58,-0.065,-0.212069,0.08156
+alt4,Normal (≥5 days),sot_diff,58,3.275862,2.551724,3.982759
+14d,High (≥4 matches in 14 days),win_rate,8,0.625,0.375,0.875
+14d,High (≥4 matches in 14 days),points_per_match,8,2.125,1.375,2.75
+14d,High (≥4 matches in 14 days),implied_win_prob,8,0.642171,0.561189,0.711378
+14d,High (≥4 matches in 14 days),mean_residual,8,-0.017171,-0.307197,0.249472
+14d,High (≥4 matches in 14 days),brier,8,0.23295,0.119907,0.360025
+14d,High (≥4 matches in 14 days),roi_flat,8,-0.085,-0.48625,0.315
+14d,High (≥4 matches in 14 days),sot_diff,8,3.75,2.375,5.375
+14d,Normal (<4 matches in 14 days),win_rate,103,0.708738,0.631068,0.786408
+14d,Normal (<4 matches in 14 days),points_per_match,103,2.320388,2.145631,2.495146
+14d,Normal (<4 matches in 14 days),implied_win_prob,103,0.677206,0.659399,0.694249
+14d,Normal (<4 matches in 14 days),mean_residual,103,0.031532,-0.041295,0.105029
+14d,Normal (<4 matches in 14 days),brier,103,0.202806,0.175133,0.230595
+14d,Normal (<4 matches in 14 days),roi_flat,103,0.012039,-0.10165,0.128257
+14d,Normal (<4 matches in 14 days),sot_diff,103,3.359223,2.76699,3.951456
+b365c,High (≤3 days),implied_win_prob,28,0.661382,0.623507,0.696913
+b365c,High (≤3 days),mean_residual,28,0.088618,-0.059159,0.228545
+b365c,Normal (≥4 days),implied_win_prob,83,0.672931,0.653448,0.691676
+b365c,Normal (≥4 days),mean_residual,83,0.013816,-0.067592,0.094148
