@@ -1,0 +1,116 @@
+{
+  "snapshot_id": "2026-11-02",
+  "created_at_utc": "2026-11-02T20:00:56+00:00",
+  "user_agent": "psg-fatigue-student-project/0.1 (Albert School M1 data project; contact: snardoux@albertschool.com)",
+  "files": [
+    {
+      "file": "wiki_2022-23.json",
+      "source": "wikipedia",
+      "season": "2022-23",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=2022%E2%80%9323+Paris+Saint-Germain+FC+season&prop=wikitext%7Crevid&format=json&formatversion=2&redirects=1",
+      "method": "api",
+      "retrieved_at_utc": "2026-11-02T20:00:45+00:00",
+      "http_status": 200,
+      "bytes": 102349,
+      "sha256": "c5a1e409f265188999e5771027fae6238014d18b517e3adaabdf66ed60693bf8",
+      "title": "2022–23 Paris Saint-Germain FC season",
+      "revid": 1376880063
+    },
+    {
+      "file": "wiki_2023-24.json",
+      "source": "wikipedia",
+      "season": "2023-24",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=2023%E2%80%9324+Paris+Saint-Germain+FC+season&prop=wikitext%7Crevid&format=json&formatversion=2&redirects=1",
+      "method": "api",
+      "retrieved_at_utc": "2026-11-02T20:00:47+00:00",
+      "http_status": 200,
+      "bytes": 96343,
+      "sha256": "d45bfb3f302a28362c7deedcec88e8a5f3fa330bd6e3a8367b78b1a542748a67",
+      "title": "2023–24 Paris Saint-Germain FC season",
+      "revid": 1382074983
+    },
+    {
+      "file": "wiki_2024-25.json",
+      "source": "wikipedia",
+      "season": "2024-25",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=2024%E2%80%9325+Paris+Saint-Germain+FC+season&prop=wikitext%7Crevid&format=json&formatversion=2&redirects=1",
+      "method": "api",
+      "retrieved_at_utc": "2026-11-02T20:00:48+00:00",
+      "http_status": 200,
+      "bytes": 96255,
+      "sha256": "73ca459ca6243960d5487cf4815082658de5f5def2ba4654bb98bb6c387d0c9b",
+      "title": "2024–25 Paris Saint-Germain FC season",
+      "revid": 1381451747
+    },
+    {
+      "file": "wiki_2025-26.json",
+      "source": "wikipedia",
+      "season": "2025-26",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=2025%E2%80%9326+Paris+Saint-Germain+FC+season&prop=wikitext%7Crevid&format=json&formatversion=2&redirects=1",
+      "method": "api",
+      "retrieved_at_utc": "2026-11-02T20:00:50+00:00",
+      "http_status": 200,
+      "bytes": 87495,
+      "sha256": "bf9418bcb6955b7b805bcebdf72b6bf1102255e55501da1533e492c0b4d84993",
+      "title": "2025–26 Paris Saint-Germain FC season",
+      "revid": 1381451969
+    },
+    {
+      "file": "wiki_2026-27.json",
+      "source": "wikipedia",
+      "season": "2026-27",
+      "url": "https://en.wikipedia.org/w/api.php?action=parse&page=2026%E2%80%9327+Paris+Saint-Germain+FC+season&prop=wikitext%7Crevid&format=json&formatversion=2&redirects=1",
+      "method": "api",
+      "retrieved_at_utc": "2026-11-02T20:00:51+00:00",
+      "http_status": 200,
+      "bytes": 62651,
+      "sha256": "b663a0c05a84939234527caf0d6c5ffe8581b9c7b25b19b19b426bf856615246",
+      "title": "2026–27 Paris Saint-Germain FC season",
+      "revid": 1383293947
+    },
+    {
+      "file": "fd_F1_2324.csv",
+      "source": "football-data",
+      "season": "2023-24",
+      "url": "https://football-data.co.uk/mmz4281/2324/F1.csv",
+      "method": "download",
+      "retrieved_at_utc": "2026-11-02T20:00:52+00:00",
+      "http_status": 200,
+      "bytes": 135000,
+      "sha256": "ca0a4bf51d5b1ccfd0e1558ea41de6bb829df6c96c759888a87248d296d5adb7"
+    },
+    {
+      "file": "fd_F1_2425.csv",
+      "source": "football-data",
+      "season": "2024-25",
+      "url": "https://football-data.co.uk/mmz4281/2425/F1.csv",
+      "method": "download",
+      "retrieved_at_utc": "2026-11-02T20:00:53+00:00",
+      "http_status": 200,
+      "bytes": 154703,
+      "sha256": "fe6ae6a0c30d05f0ac88e0fc4a31452c7203e2b444703dfa941e22f38f20ab63"
+    },
+    {
+      "file": "fd_F1_2526.csv",
+      "source": "football-data",
+      "season": "2025-26",
+      "url": "https://football-data.co.uk/mmz4281/2526/F1.csv",
+      "method": "download",
+      "retrieved_at_utc": "2026-11-02T20:00:55+00:00",
+      "http_status": 200,
+      "bytes": 158471,
+      "sha256": "898b7ddcd373cfe955ae353b1a98cf7f1c8757ca10b69d53039f4e098e88f192"
+    },
+    {
+      "file": "fd_F1_2627.csv",
+      "source": "football-data",
+      "season": "2026-27",
+      "url": "https://football-data.co.uk/mmz4281/2627/F1.csv",
+      "method": "download",
+      "retrieved_at_utc": "2026-11-02T20:00:56+00:00",
+      "http_status": 200,
+      "bytes": 38342,
+      "sha256": "4e39575f8ce0273a8d53cde3d238ded2094e108504205b7ec584e77db5bdbee8"
+    }
+  ]
+}

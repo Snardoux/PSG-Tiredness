@@ -10,8 +10,8 @@ from pathlib import Path
 
 # --- Snapshot -----------------------------------------------------------------
 # Frozen raw snapshot analysed by `build` (folder name under data/raw/).
-# Set after the first successful `collect`; None until then.
-SNAPSHOT_ID: str | None = None
+# Frozen after the first successful `collect` (extraction of 2 November 2026).
+SNAPSHOT_ID: str | None = "2026-11-02"
 
 # --- Period and seasons (see docs/FRAMING.md) ---------------------------------
 LUIS_ENRIQUE_APPOINTMENT = date(2023, 7, 5)
