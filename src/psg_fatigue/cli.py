@@ -11,6 +11,7 @@ import logging
 import sys
 
 from psg_fatigue import config
+from psg_fatigue.collect import snapshot
 
 logger = logging.getLogger(__name__)
 
@@ -56,10 +57,30 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def run_collect(register_manual: str | None) -> int:
+    """`collect`: new online snapshot, or registration of hand-downloaded CSV files."""
+    if register_manual is not None:
+        snapshot.register_manual(register_manual)
+        return 0
+    snapshot_id = snapshot.today_snapshot_id()
+    blocked = snapshot.create_snapshot(snapshot_id)
+    logger.info("New snapshot id: %s (set config.SNAPSHOT_ID to analyse it)", snapshot_id)
+    if blocked:
+        logger.error(snapshot.manual_download_instructions(snapshot_id, blocked))
+        return 3
+    return 0
+
+
 def run_command(args: argparse.Namespace) -> int:
     """Dispatch a parsed command. Returns the process exit code."""
     command: str = args.command
-    # Pipeline steps are wired in as they are implemented (phases 1 to 4).
+    try:
+        if command == "collect":
+            return run_collect(args.register_manual)
+    except snapshot.SnapshotError as error:
+        logger.error("%s", error)
+        return 1
+    # Remaining pipeline steps are wired in as they are implemented (phases 2 to 4).
     logger.error("Command %r is not implemented yet.", command)
     return 2
 
