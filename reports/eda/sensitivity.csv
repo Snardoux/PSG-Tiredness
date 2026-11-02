@@ -1,0 +1,5 @@
+definition,description,n_high,n_normal,high_mean_residual,high_ci_low,high_ci_high,normal_mean_residual,normal_ci_low,normal_ci_high,diff_high_minus_normal,diff_ci_low,diff_ci_high,rule_satisfied,conclusion
+primary,rest days <= 3,28,83,0.084185,-0.063486,0.224106,0.009075,-0.072343,0.088991,0.075109,-0.093329,0.235938,False,The data does not support an adjustment
+alt4,rest days <= 4,53,58,0.069476,-0.034218,0.168309,-0.009859,-0.108779,0.088802,0.079336,-0.062326,0.219707,False,The data does not support an adjustment
+14d,>= 4 official matches in the previous 14 days,8,103,-0.017171,-0.307197,0.249472,0.031532,-0.041295,0.105029,-0.048703,-0.352245,0.232963,False,The data does not support an adjustment
+b365c,"rest days <= 3, Bet365 closing odds",28,83,0.088618,-0.059159,0.228545,0.013816,-0.067592,0.094148,0.074802,-0.093867,0.23543,False,The data does not support an adjustment

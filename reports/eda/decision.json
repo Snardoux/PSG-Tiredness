@@ -1,0 +1,34 @@
+{
+  "question": "Under Luis Enrique, does fixture congestion reduce PSG's Ligue 1 results beyond what closing odds already anticipate?",
+  "high_load_definition": "rest days <= 3",
+  "reference_odds": "market-average closing odds (AvgC), margin removed proportionally",
+  "residual": "psg_win - p_win_implied",
+  "n_matches": 111,
+  "n_unknown_load": 0,
+  "n_high_load": 28,
+  "n_normal_load": 83,
+  "high_load_mean_residual": 0.0842,
+  "high_load_ci90": [
+    -0.0635,
+    0.2241
+  ],
+  "normal_load_mean_residual": 0.0091,
+  "normal_load_ci90": [
+    -0.0723,
+    0.089
+  ],
+  "difference_high_minus_normal": 0.0751,
+  "difference_ci90": [
+    -0.0933,
+    0.2359
+  ],
+  "rule": "Recommend a fatigue adjustment only if the mean residual in high-load matches is negative and its 90% bootstrap confidence interval excludes zero.",
+  "rule_satisfied": false,
+  "conclusion": "The data does not support an adjustment",
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 42,
+    "level": 0.9,
+    "method": "percentile"
+  }
+}
