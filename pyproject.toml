@@ -37,11 +37,18 @@ line-length = 100
 src = ["src", "tests"]
 
 [tool.ruff.lint]
-select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N"]
+# SPEC §14 rule set, plus stricter families the code already satisfies: comprehensions (C4),
+# pytest style (PT), pathlib (PTH), returns (RET), unused arguments (ARG),
+# commented-out code (ERA), misc. lints (PIE).
+select = [
+    "E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N",
+    "C4", "PT", "PTH", "RET", "ARG", "ERA", "PIE",
+]
 
 [tool.mypy]
 files = ["src", "tests"]
 strict = true
+warn_unreachable = true  # not part of --strict: flags dead branches
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
