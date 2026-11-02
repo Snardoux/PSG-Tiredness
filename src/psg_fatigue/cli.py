@@ -10,7 +10,7 @@ import argparse
 import logging
 import sys
 
-from psg_fatigue import config, pipeline, quality
+from psg_fatigue import config, integrate, pipeline, quality
 from psg_fatigue.collect import snapshot
 
 logger = logging.getLogger(__name__)
@@ -83,14 +83,18 @@ def run_command(args: argparse.Namespace) -> int:
                 logger.error("No snapshot id: set config.SNAPSHOT_ID or pass --snapshot")
                 return 1
             pipeline.run_build(snapshot_id)
-            if command == "build":
-                return 0
-    except (snapshot.SnapshotError, quality.QualityCheckError) as error:
+        if command in ("eda", "all"):
+            pipeline.run_eda()
+    except (
+        snapshot.SnapshotError,
+        quality.QualityCheckError,
+        integrate.TeamMappingError,
+        integrate.IntegrationError,
+        FileNotFoundError,
+    ) as error:
         logger.error("%s", error)
         return 1
-    # Remaining pipeline steps are wired in as they are implemented (phases 3 and 4).
-    logger.error("Command %r is not implemented yet.", command)
-    return 2
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
