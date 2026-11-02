@@ -1,0 +1,58 @@
+season,competition,round,matchday,match_date,played,venue,opponent,psg_goals,opp_goals,psg_result,decided_by,rescheduled
+2024-25,FIFA Club World Cup,Final,,2025-07-13,True,N,Chelsea,0,3,L,FT,False
+2025-26,UEFA Super Cup,Final,,2025-08-13,True,N,Tottenham Hotspur,2,2,D,PEN,False
+2025-26,Ligue 1,1,1,2025-08-17,True,A,Nantes,1,0,W,FT,False
+2025-26,Ligue 1,2,2,2025-08-22,True,H,Angers,1,0,W,FT,False
+2025-26,Ligue 1,3,3,2025-08-30,True,A,Toulouse,6,3,W,FT,False
+2025-26,Ligue 1,4,4,2025-09-14,True,H,Lens,2,0,W,FT,False
+2025-26,UEFA Champions League,1,,2025-09-17,True,H,Atalanta,4,0,W,FT,False
+2025-26,Ligue 1,5,5,2025-09-22,True,A,Marseille,0,1,L,FT,True
+2025-26,Ligue 1,6,6,2025-09-27,True,H,Auxerre,2,0,W,FT,False
+2025-26,UEFA Champions League,2,,2025-10-01,True,A,Barcelona,2,1,W,FT,False
+2025-26,Ligue 1,7,7,2025-10-05,True,A,Lille,1,1,D,FT,False
+2025-26,Ligue 1,8,8,2025-10-17,True,H,Strasbourg,3,3,D,FT,False
+2025-26,UEFA Champions League,3,,2025-10-21,True,A,Bayer Leverkusen,7,2,W,FT,False
+2025-26,Ligue 1,9,9,2025-10-25,True,A,Brest,3,0,W,FT,False
+2025-26,Ligue 1,10,10,2025-10-29,True,A,Lorient,1,1,D,FT,False
+2025-26,Ligue 1,11,11,2025-11-01,True,H,Nice,1,0,W,FT,False
+2025-26,UEFA Champions League,4,,2025-11-04,True,H,Bayern Munich,1,2,L,FT,False
+2025-26,Ligue 1,12,12,2025-11-09,True,A,Lyon,3,2,W,FT,False
+2025-26,Ligue 1,13,13,2025-11-22,True,H,Le Havre,3,0,W,FT,False
+2025-26,UEFA Champions League,5,,2025-11-26,True,H,Tottenham Hotspur,5,3,W,FT,False
+2025-26,Ligue 1,14,14,2025-11-29,True,A,Monaco,0,1,L,FT,False
+2025-26,Ligue 1,15,15,2025-12-06,True,H,Rennes,5,0,W,FT,False
+2025-26,UEFA Champions League,6,,2025-12-10,True,A,Athletic Bilbao,0,0,D,FT,False
+2025-26,Ligue 1,16,16,2025-12-13,True,A,Metz,3,2,W,FT,False
+2025-26,FIFA Intercontinental Cup,Final,,2025-12-17,True,N,Flamengo,1,1,D,PEN,False
+2025-26,Coupe de France,Round of 64,,2025-12-20,True,A,Fontenay,4,0,W,FT,False
+2025-26,Ligue 1,17,17,2026-01-04,True,H,Paris FC,2,1,W,FT,False
+2025-26,Trophée des Champions,Final,,2026-01-08,True,N,Marseille,2,2,D,PEN,False
+2025-26,Coupe de France,Round of 32,,2026-01-12,True,H,Paris FC,0,1,L,FT,False
+2025-26,Ligue 1,18,18,2026-01-16,True,H,Lille,3,0,W,FT,False
+2025-26,UEFA Champions League,7,,2026-01-20,True,A,Sporting CP,1,2,L,FT,False
+2025-26,Ligue 1,19,19,2026-01-23,True,A,Auxerre,1,0,W,FT,False
+2025-26,UEFA Champions League,8,,2026-01-28,True,H,Newcastle United,1,1,D,FT,False
+2025-26,Ligue 1,20,20,2026-02-01,True,A,Strasbourg,2,1,W,FT,False
+2025-26,Ligue 1,21,21,2026-02-08,True,H,Marseille,5,0,W,FT,False
+2025-26,Ligue 1,22,22,2026-02-13,True,A,Rennes,1,3,L,FT,False
+2025-26,UEFA Champions League,First leg,,2026-02-17,True,A,Monaco,3,2,W,FT,False
+2025-26,Ligue 1,23,23,2026-02-21,True,H,Metz,3,0,W,FT,False
+2025-26,UEFA Champions League,Second leg,,2026-02-25,True,H,Monaco,2,2,D,FT,False
+2025-26,Ligue 1,24,24,2026-02-28,True,A,Le Havre,1,0,W,FT,False
+2025-26,Ligue 1,25,25,2026-03-06,True,H,Monaco,1,3,L,FT,False
+2025-26,UEFA Champions League,First leg,,2026-03-11,True,H,Chelsea,5,2,W,FT,False
+2025-26,UEFA Champions League,Second leg,,2026-03-17,True,A,Chelsea,3,0,W,FT,False
+2025-26,Ligue 1,27,27,2026-03-21,True,A,Nice,4,0,W,FT,False
+2025-26,Ligue 1,28,28,2026-04-03,True,H,Toulouse,3,1,W,FT,False
+2025-26,UEFA Champions League,First leg,,2026-04-08,True,H,Liverpool,2,0,W,FT,False
+2025-26,UEFA Champions League,Second leg,,2026-04-14,True,A,Liverpool,2,0,W,FT,False
+2025-26,Ligue 1,30,30,2026-04-19,True,H,Lyon,1,2,L,FT,False
+2025-26,Ligue 1,26,26,2026-04-22,True,H,Nantes,3,0,W,FT,True
+2025-26,Ligue 1,31,31,2026-04-25,True,A,Angers,3,0,W,FT,False
+2025-26,UEFA Champions League,First leg,,2026-04-28,True,H,Bayern Munich,5,4,W,FT,False
+2025-26,Ligue 1,32,32,2026-05-02,True,H,Lorient,2,2,D,FT,False
+2025-26,UEFA Champions League,Second leg,,2026-05-06,True,A,Bayern Munich,1,1,D,FT,False
+2025-26,Ligue 1,33,33,2026-05-10,True,H,Brest,1,0,W,FT,False
+2025-26,Ligue 1,29,29,2026-05-13,True,A,Lens,2,0,W,FT,True
+2025-26,Ligue 1,34,34,2026-05-17,True,A,Paris FC,1,2,L,FT,False
+2025-26,UEFA Champions League,Final,,2026-05-30,True,N,Arsenal,1,1,D,PEN,False
