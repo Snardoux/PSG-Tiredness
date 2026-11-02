@@ -1,0 +1,11 @@
+{{Fb overview2
+|c=6
+|c1=[[2026–27 Ligue 1|Ligue 1]] |fm1=23 August 2026 |lm1=29 May 2027 |sr1=Matchday 1 |fp1=TBD |w1=6 |d1=2 |l1=1 |f1=21 |a1=10
+|c2=[[2026–27 Coupe de France|Coupe de France]] |fm2=19–21 December 2026 |lm2=TBD |sr2={{nowrap|Round of 64}} |fp2=TBD |w2=0 |d2=0 |l2=0 |f2=0 |a2=0
+|c3=[[2026 Trophée des Champions|Trophée des Champions]] |dm3=16 August 2026 |sr3=Final |fp3={{won|place=2|Runners-up}} |w3=0 |d3=0 |l3=1 |f3=0 |a3=1
+|c4=[[2026–27 UEFA Champions League|UEFA Champions League]] |fm4=9 September 2026 |lm4=TBD |sr4={{nowrap|League phase}} |fp4=TBD |w4=3 |d4=0 |l4=0 |f4=14 |a4=5
+|c5=[[2026 UEFA Super Cup|UEFA Super Cup]] |dm5=12 August 2026  |sr5=Final |fp5=Winners |w5=1 |d5=0 |l5=0 |f5=2 |a5=1
+|c6={{nowrap|[[2026 FIFA Intercontinental Cup|FIFA Intercontinental Cup]]}} |dm6={{nowrap|16 December 2026}} |sr6=Final |fp6=TBD |w6=0 |d6=0 |l6=0 |f6=0 |a6=0
+|u=30 October 2026
+|s=[https://int.soccerway.com/teams/france/paris-saint-germain-fc/886/ Soccerway]
+}}
