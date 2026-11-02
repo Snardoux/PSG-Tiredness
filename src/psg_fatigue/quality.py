@@ -287,7 +287,6 @@ def run_checks(
     details = {
         "near_duplicates": near,
         "odds_checks": odds,
-        "unplayed_past": unplayed_past,
         "rescheduled": played[played["rescheduled"]],
         "rest_outliers": rest_outliers,
         "out_of_matchday_order": out_of_matchday_order(matches),
@@ -321,7 +320,7 @@ def build_report(
 ) -> str:
     """Assemble quality_report.md from the generated tables (numbers only, no opinions)."""
     availability = fd_columns.pivot(index="column", columns="season", values="present")
-    availability = availability.loc[[c for c in fd_columns["column"].unique()]]
+    availability = availability.loc[list(fd_columns["column"].unique())]  # keep file order
     availability = availability.map(lambda present: "yes" if present else "**no**").reset_index()
     n_columns = fd_columns.groupby("season")["n_columns_in_file"].first().reset_index()
     missing = fd_profile[fd_profile["missing"] > 0][["season", "column", "missing", "rows"]]

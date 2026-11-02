@@ -99,6 +99,8 @@ def bootstrap_difference_ci(
 ) -> tuple[float, float, float]:
     """Difference of means (first - second) with a bootstrap CI; groups resampled separately."""
     a, b = np.asarray(first, dtype=float), np.asarray(second, dtype=float)
+    if len(a) == 0 or len(b) == 0:  # e.g. no high-load match under a definition
+        return float("nan"), float("nan"), float("nan")
     rng = np.random.default_rng(seed)
     means_a = rng.choice(a, size=(resamples, len(a)), replace=True).mean(axis=1)
     means_b = rng.choice(b, size=(resamples, len(b)), replace=True).mean(axis=1)
