@@ -192,4 +192,4 @@ def test_fd_dates_fall_back_to_two_digit_years() -> None:
 def test_fd_decoding_without_bom() -> None:
     text = fd_matches.decode_csv((FIXTURES / "fd_F1_2526_excerpt.csv").read_bytes())
     assert text.startswith("Div,")  # BOM removed
-    assert pd.read_csv(io.StringIO(text)).shape[0] == 8
+    assert pd.read_csv(io.StringIO(text)).shape[0] == 10

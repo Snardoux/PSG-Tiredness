@@ -23,6 +23,7 @@ ODDS_MIN, ODDS_MAX = 1.01, 50.0  # decimal odds outside (1.01, 50] are flagged
 OVERROUND_MIN, OVERROUND_MAX = 0.0, 0.15
 MAX_GOALS = 9
 NEAR_DUPLICATE_DAYS = 3
+MIN_REST_DAYS, MAX_REST_DAYS = 2, 30  # SPEC §10: unusual rest outside season starts
 
 FD_PROFILE_COLUMNS = [
     "match_date",
@@ -197,14 +198,42 @@ def odds_checks(fd_l1: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def rest_day_outliers(matches: pd.DataFrame) -> pd.DataFrame:
+    """Unusual rest days: fewer than 2, or more than 30 for a match that does not open a season."""
+    season_opener = (
+        matches.groupby("season")["match_date"].transform("min") == matches["match_date"]
+    )
+    rest = matches["rest_days"]
+    too_short = (rest < MIN_REST_DAYS).fillna(False)
+    too_long = ((rest > MAX_REST_DAYS) & ~season_opener).fillna(False)
+    outliers = matches[too_short | too_long][
+        ["season", "match_date", "competition", "opponent", "rest_days"]
+    ]
+    return outliers.assign(match_date=outliers["match_date"].dt.strftime("%Y-%m-%d"))
+
+
+def out_of_matchday_order(matches: pd.DataFrame) -> pd.DataFrame:
+    """Ligue 1 matches whose date rank in the season differs from their matchday number.
+
+    These are the rows whose rest days would be wrong if computed in matchday order.
+    """
+    league = matches[matches["competition"] == config.LEAGUE]
+    date_rank = league.groupby("season")["match_date"].rank(method="first").astype(int)
+    moved = league[date_rank != league["matchday"]]
+    return moved[["season", "matchday", "match_date", "opponent", "rest_days"]].assign(
+        date_rank=date_rank[moved.index], match_date=moved["match_date"].dt.strftime("%Y-%m-%d")
+    )
+
+
 def run_checks(
-    calendar: pd.DataFrame, fd_l1: pd.DataFrame, snapshot_id: str
+    calendar: pd.DataFrame, fd_l1: pd.DataFrame, matches: pd.DataFrame, snapshot_id: str
 ) -> tuple[pd.DataFrame, dict[str, pd.DataFrame]]:
     """Duplicates, near duplicates, unusual values and consistency checks.
 
     Returns one row per check (name, value, status) and the detail tables behind them.
     """
     played = calendar[calendar["played"]]
+    rest_outliers = rest_day_outliers(matches)
     fd_key_dupes = fd_l1[fd_l1.duplicated(["match_date", "home_team", "away_team"], keep=False)]
     fd_pair_dupes = fd_l1[fd_l1.duplicated(["season", "home_team", "away_team"], keep=False)]
     cal_key_dupes = calendar.dropna(subset=["match_date"])
@@ -248,6 +277,11 @@ def run_checks(
                 int(closing_avg["overround_out_of_range"]),
                 warn_only=True,
             ),
+            row(
+                "rest days < 2, or > 30 outside season openers (Luis Enrique era)",
+                len(rest_outliers),
+                warn_only=True,
+            ),
         ]
     )
     details = {
@@ -255,6 +289,8 @@ def run_checks(
         "odds_checks": odds,
         "unplayed_past": unplayed_past,
         "rescheduled": played[played["rescheduled"]],
+        "rest_outliers": rest_outliers,
+        "out_of_matchday_order": out_of_matchday_order(matches),
     }
     return checks, details
 
@@ -335,7 +371,19 @@ def build_report(
         "",
         markdown_table(details["near_duplicates"]),
         "",
-        "## 7. Rows excluded or flagged",
+        "## 7. Rest days (Luis Enrique era, all official matches)",
+        "",
+        "Unusual values: fewer than 2 days, or more than 30 days for a match that does not "
+        "open a season:",
+        "",
+        markdown_table(details["rest_outliers"]),
+        "",
+        "Ligue 1 matches played out of matchday order (their date rank differs from their "
+        "matchday): rest days computed in matchday order would be wrong for them.",
+        "",
+        markdown_table(details["out_of_matchday_order"]),
+        "",
+        "## 8. Rows excluded or flagged",
         "",
         "Friendlies excluded from the calendar (not official matches):",
         "",
@@ -361,6 +409,7 @@ def run_quality(
     excluded: pd.DataFrame,
     fd_l1: pd.DataFrame,
     fd_columns: pd.DataFrame,
+    matches: pd.DataFrame,
     snapshot_id: str,
     out_dir: Path,
 ) -> None:
@@ -370,7 +419,7 @@ def run_quality(
     fd_count_table = fd_counts(fd_l1)
     fd_profile = profile(fd_l1, FD_PROFILE_COLUMNS)
     labels = paris_labels(fd_l1)
-    checks, details = run_checks(calendar, fd_l1, snapshot_id)
+    checks, details = run_checks(calendar, fd_l1, matches, snapshot_id)
 
     write_csv(wiki_counts, out_dir / "wikipedia_counts.csv")
     write_csv(fd_count_table, out_dir / "fd_counts.csv")

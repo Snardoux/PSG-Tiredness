@@ -127,12 +127,38 @@ Club labels containing 'Paris' (PSG must be distinct from Paris FC):
 | F1 rows with shots on target > shots | 0 | ok |
 | closing-average odds outside (1.01, 50] | 0 | ok |
 | closing-average overround outside [0, 0.15] | 0 | ok |
+| rest days < 2, or > 30 outside season openers (Luis Enrique era) | 0 | ok |
 
 Near duplicates (same competition and opponent within 3 days):
 
 _(none)_
 
-## 7. Rows excluded or flagged
+## 7. Rest days (Luis Enrique era, all official matches)
+
+Unusual values: fewer than 2 days, or more than 30 days for a match that does not open a season:
+
+_(none)_
+
+Ligue 1 matches played out of matchday order (their date rank differs from their matchday): rest days computed in matchday order would be wrong for them.
+
+| season | matchday | match_date | opponent | rest_days | date_rank |
+|---|---|---|---|---|---|
+| 2023-24 | 30 | 2024-04-21 | Lyon | 5 | 29 |
+| 2023-24 | 29 | 2024-04-24 | Lorient | 3 | 30 |
+| 2023-24 | 33 | 2024-05-12 | Toulouse | 5 | 32 |
+| 2023-24 | 32 | 2024-05-15 | Nice | 3 | 33 |
+| 2024-25 | 30 | 2025-04-19 | Le Havre | 4 | 29 |
+| 2024-25 | 29 | 2025-04-22 | Nantes | 3 | 30 |
+| 2025-26 | 27 | 2026-03-21 | Nice | 4 | 26 |
+| 2025-26 | 28 | 2026-04-03 | Toulouse | 13 | 27 |
+| 2025-26 | 30 | 2026-04-19 | Lyon | 5 | 28 |
+| 2025-26 | 26 | 2026-04-22 | Nantes | 3 | 29 |
+| 2025-26 | 31 | 2026-04-25 | Angers | 3 | 30 |
+| 2025-26 | 32 | 2026-05-02 | Lorient | 4 | 31 |
+| 2025-26 | 33 | 2026-05-10 | Brest | 4 | 32 |
+| 2025-26 | 29 | 2026-05-13 | Lens | 3 | 33 |
+
+## 8. Rows excluded or flagged
 
 Friendlies excluded from the calendar (not official matches):
 

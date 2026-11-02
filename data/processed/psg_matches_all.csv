@@ -1,0 +1,189 @@
+match_id,season,match_date,competition,round,venue,opponent,played,psg_goals,opp_goals,psg_result,decided_by,rest_days,matches_last_14d,wiki_revid
+2023-08-12_lorient,2023-24,2023-08-12,Ligue 1,1,H,Lorient,True,0,0,D,FT,70,0,1382074983
+2023-08-19_toulouse,2023-24,2023-08-19,Ligue 1,2,A,Toulouse,True,1,1,D,FT,7,1,1382074983
+2023-08-26_lens,2023-24,2023-08-26,Ligue 1,3,H,Lens,True,3,1,W,FT,7,2,1382074983
+2023-09-03_lyon,2023-24,2023-09-03,Ligue 1,4,A,Lyon,True,4,1,W,FT,8,1,1382074983
+2023-09-15_nice,2023-24,2023-09-15,Ligue 1,5,H,Nice,True,2,3,L,FT,12,1,1382074983
+2023-09-19_borussia-dortmund,2023-24,2023-09-19,UEFA Champions League,1,H,Borussia Dortmund,True,2,0,W,FT,4,1,1382074983
+2023-09-24_marseille,2023-24,2023-09-24,Ligue 1,6,H,Marseille,True,4,0,W,FT,5,2,1382074983
+2023-09-30_clermont,2023-24,2023-09-30,Ligue 1,7,A,Clermont,True,0,0,D,FT,6,2,1382074983
+2023-10-04_newcastle-united,2023-24,2023-10-04,UEFA Champions League,2,A,Newcastle United,True,1,4,L,FT,4,2,1382074983
+2023-10-08_rennes,2023-24,2023-10-08,Ligue 1,8,A,Rennes,True,3,1,W,FT,4,3,1382074983
+2023-10-21_strasbourg,2023-24,2023-10-21,Ligue 1,9,H,Strasbourg,True,3,0,W,FT,13,1,1382074983
+2023-10-25_milan,2023-24,2023-10-25,UEFA Champions League,3,H,Milan,True,3,0,W,FT,4,1,1382074983
+2023-10-29_brest,2023-24,2023-10-29,Ligue 1,10,A,Brest,True,3,2,W,FT,4,2,1382074983
+2023-11-03_montpellier,2023-24,2023-11-03,Ligue 1,11,H,Montpellier,True,3,0,W,FT,5,3,1382074983
+2023-11-07_milan,2023-24,2023-11-07,UEFA Champions League,4,A,Milan,True,1,2,L,FT,4,3,1382074983
+2023-11-11_reims,2023-24,2023-11-11,Ligue 1,12,A,Reims,True,3,0,W,FT,4,3,1382074983
+2023-11-24_monaco,2023-24,2023-11-24,Ligue 1,13,H,Monaco,True,5,2,W,FT,13,1,1382074983
+2023-11-28_newcastle-united,2023-24,2023-11-28,UEFA Champions League,5,H,Newcastle United,True,1,1,D,FT,4,1,1382074983
+2023-12-03_le-havre,2023-24,2023-12-03,Ligue 1,14,A,Le Havre,True,2,0,W,FT,5,2,1382074983
+2023-12-09_nantes,2023-24,2023-12-09,Ligue 1,15,H,Nantes,True,2,1,W,FT,6,2,1382074983
+2023-12-13_borussia-dortmund,2023-24,2023-12-13,UEFA Champions League,6,A,Borussia Dortmund,True,1,1,D,FT,4,2,1382074983
+2023-12-17_lille,2023-24,2023-12-17,Ligue 1,16,A,Lille,True,1,1,D,FT,4,3,1382074983
+2023-12-20_metz,2023-24,2023-12-20,Ligue 1,17,H,Metz,True,3,1,W,FT,3,3,1382074983
+2024-01-03_toulouse,2023-24,2024-01-03,Trophée des Champions,Final,N,Toulouse,True,2,0,W,FT,14,1,1382074983
+2024-01-07_revel,2023-24,2024-01-07,Coupe de France,Round of 64,A,Revel,True,9,0,W,FT,4,1,1382074983
+2024-01-14_lens,2023-24,2024-01-14,Ligue 1,18,A,Lens,True,2,0,W,FT,7,2,1382074983
+2024-01-20_orleans,2023-24,2024-01-20,Coupe de France,Round of 32,A,Orléans,True,4,1,W,FT,6,2,1382074983
+2024-01-28_brest,2023-24,2024-01-28,Ligue 1,19,H,Brest,True,2,2,D,FT,8,2,1382074983
+2024-02-02_strasbourg,2023-24,2024-02-02,Ligue 1,20,A,Strasbourg,True,2,1,W,FT,5,2,1382074983
+2024-02-07_brest,2023-24,2024-02-07,Coupe de France,Round of 16,H,Brest,True,3,1,W,FT,5,2,1382074983
+2024-02-10_lille,2023-24,2024-02-10,Ligue 1,21,H,Lille,True,3,1,W,FT,3,3,1382074983
+2024-02-14_real-sociedad,2023-24,2024-02-14,UEFA Champions League,First leg,H,Real Sociedad,True,2,0,W,FT,4,3,1382074983
+2024-02-17_nantes,2023-24,2024-02-17,Ligue 1,22,A,Nantes,True,2,0,W,FT,3,3,1382074983
+2024-02-25_rennes,2023-24,2024-02-25,Ligue 1,23,H,Rennes,True,1,1,D,FT,8,2,1382074983
+2024-03-01_monaco,2023-24,2024-03-01,Ligue 1,24,A,Monaco,True,0,0,D,FT,5,2,1382074983
+2024-03-05_real-sociedad,2023-24,2024-03-05,UEFA Champions League,Second leg,A,Real Sociedad,True,2,1,W,FT,4,2,1382074983
+2024-03-10_reims,2023-24,2024-03-10,Ligue 1,25,H,Reims,True,2,2,D,FT,5,3,1382074983
+2024-03-13_nice,2023-24,2024-03-13,Coupe de France,Quarter-finals,H,Nice,True,3,1,W,FT,3,3,1382074983
+2024-03-17_montpellier,2023-24,2024-03-17,Ligue 1,26,A,Montpellier,True,6,2,W,FT,4,3,1382074983
+2024-03-31_marseille,2023-24,2024-03-31,Ligue 1,27,A,Marseille,True,2,0,W,FT,14,1,1382074983
+2024-04-03_rennes,2023-24,2024-04-03,Coupe de France,Semi-finals,H,Rennes,True,1,0,W,FT,3,1,1382074983
+2024-04-06_clermont,2023-24,2024-04-06,Ligue 1,28,H,Clermont,True,1,1,D,FT,3,2,1382074983
+2024-04-10_barcelona,2023-24,2024-04-10,UEFA Champions League,First leg,H,Barcelona,True,2,3,L,FT,4,3,1382074983
+2024-04-16_barcelona,2023-24,2024-04-16,UEFA Champions League,Second leg,A,Barcelona,True,4,1,W,FT,6,3,1382074983
+2024-04-21_lyon,2023-24,2024-04-21,Ligue 1,30,H,Lyon,True,4,1,W,FT,5,2,1382074983
+2024-04-24_lorient,2023-24,2024-04-24,Ligue 1,29,A,Lorient,True,4,1,W,FT,3,3,1382074983
+2024-04-27_le-havre,2023-24,2024-04-27,Ligue 1,31,H,Le Havre,True,3,3,D,FT,3,3,1382074983
+2024-05-01_borussia-dortmund,2023-24,2024-05-01,UEFA Champions League,First leg,A,Borussia Dortmund,True,0,1,L,FT,4,3,1382074983
+2024-05-07_borussia-dortmund,2023-24,2024-05-07,UEFA Champions League,Second leg,H,Borussia Dortmund,True,0,1,L,FT,6,3,1382074983
+2024-05-12_toulouse,2023-24,2024-05-12,Ligue 1,33,H,Toulouse,True,1,3,L,FT,5,2,1382074983
+2024-05-15_nice,2023-24,2024-05-15,Ligue 1,32,A,Nice,True,2,1,W,FT,3,3,1382074983
+2024-05-19_metz,2023-24,2024-05-19,Ligue 1,34,A,Metz,True,2,0,W,FT,4,3,1382074983
+2024-05-25_lyon,2023-24,2024-05-25,Coupe de France,Final,N,Lyon,True,2,1,W,FT,6,3,1382074983
+2024-08-16_le-havre,2024-25,2024-08-16,Ligue 1,1,A,Le Havre,True,4,1,W,FT,83,0,1381451747
+2024-08-23_montpellier,2024-25,2024-08-23,Ligue 1,2,H,Montpellier,True,6,0,W,FT,7,1,1381451747
+2024-09-01_lille,2024-25,2024-09-01,Ligue 1,3,A,Lille,True,3,1,W,FT,9,1,1381451747
+2024-09-14_brest,2024-25,2024-09-14,Ligue 1,4,H,Brest,True,3,1,W,FT,13,1,1381451747
+2024-09-18_girona,2024-25,2024-09-18,UEFA Champions League,1,H,Girona,True,1,0,W,FT,4,1,1381451747
+2024-09-21_reims,2024-25,2024-09-21,Ligue 1,5,A,Reims,True,1,1,D,FT,3,2,1381451747
+2024-09-27_rennes,2024-25,2024-09-27,Ligue 1,6,H,Rennes,True,3,1,W,FT,6,3,1381451747
+2024-10-01_arsenal,2024-25,2024-10-01,UEFA Champions League,2,A,Arsenal,True,0,2,L,FT,4,3,1381451747
+2024-10-06_nice,2024-25,2024-10-06,Ligue 1,7,A,Nice,True,1,1,D,FT,5,2,1381451747
+2024-10-19_strasbourg,2024-25,2024-10-19,Ligue 1,8,H,Strasbourg,True,4,2,W,FT,13,1,1381451747
+2024-10-22_psv-eindhoven,2024-25,2024-10-22,UEFA Champions League,3,H,PSV Eindhoven,True,1,1,D,FT,3,1,1381451747
+2024-10-27_marseille,2024-25,2024-10-27,Ligue 1,9,A,Marseille,True,3,0,W,FT,5,2,1381451747
+2024-11-02_lens,2024-25,2024-11-02,Ligue 1,10,H,Lens,True,1,0,W,FT,6,3,1381451747
+2024-11-06_atletico-madrid,2024-25,2024-11-06,UEFA Champions League,4,H,Atlético Madrid,True,1,2,L,FT,4,2,1381451747
+2024-11-09_angers,2024-25,2024-11-09,Ligue 1,11,A,Angers,True,4,2,W,FT,3,3,1381451747
+2024-11-22_toulouse,2024-25,2024-11-22,Ligue 1,12,H,Toulouse,True,3,0,W,FT,13,1,1381451747
+2024-11-26_bayern-munich,2024-25,2024-11-26,UEFA Champions League,5,A,Bayern Munich,True,0,1,L,FT,4,1,1381451747
+2024-11-30_nantes,2024-25,2024-11-30,Ligue 1,13,H,Nantes,True,1,1,D,FT,4,2,1381451747
+2024-12-06_auxerre,2024-25,2024-12-06,Ligue 1,14,A,Auxerre,True,0,0,D,FT,6,3,1381451747
+2024-12-10_red-bull-salzburg,2024-25,2024-12-10,UEFA Champions League,6,A,Red Bull Salzburg,True,3,0,W,FT,4,3,1381451747
+2024-12-15_lyon,2024-25,2024-12-15,Ligue 1,15,H,Lyon,True,3,1,W,FT,5,2,1381451747
+2024-12-18_monaco,2024-25,2024-12-18,Ligue 1,16,A,Monaco,True,4,2,W,FT,3,3,1381451747
+2024-12-22_lens,2024-25,2024-12-22,Coupe de France,Round of 64,A,Lens,True,1,1,D,PEN,4,3,1381451747
+2025-01-05_monaco,2024-25,2025-01-05,Trophée des Champions,Final,N,Monaco,True,1,0,W,FT,14,1,1381451747
+2025-01-12_saint-etienne,2024-25,2025-01-12,Ligue 1,17,H,Saint-Étienne,True,2,1,W,FT,7,1,1381451747
+2025-01-15_espaly,2024-25,2025-01-15,Coupe de France,Round of 32,A,Espaly,True,4,2,W,FT,3,2,1381451747
+2025-01-18_lens,2024-25,2025-01-18,Ligue 1,18,A,Lens,True,2,1,W,FT,3,3,1381451747
+2025-01-22_manchester-city,2024-25,2025-01-22,UEFA Champions League,7,H,Manchester City,True,4,2,W,FT,4,3,1381451747
+2025-01-25_reims,2024-25,2025-01-25,Ligue 1,19,H,Reims,True,1,1,D,FT,3,4,1381451747
+2025-01-29_vfb-stuttgart,2024-25,2025-01-29,UEFA Champions League,8,A,VfB Stuttgart,True,4,1,W,FT,4,4,1381451747
+2025-02-01_brest,2024-25,2025-02-01,Ligue 1,20,A,Brest,True,5,2,W,FT,3,4,1381451747
+2025-02-04_le-mans,2024-25,2025-02-04,Coupe de France,Round of 16,A,Le Mans,True,2,0,W,FT,3,4,1381451747
+2025-02-07_monaco,2024-25,2025-02-07,Ligue 1,21,H,Monaco,True,4,1,W,FT,3,4,1381451747
+2025-02-11_brest,2024-25,2025-02-11,UEFA Champions League,First leg,A,Brest,True,3,0,W,FT,4,4,1381451747
+2025-02-15_toulouse,2024-25,2025-02-15,Ligue 1,22,A,Toulouse,True,1,0,W,FT,4,4,1381451747
+2025-02-19_brest,2024-25,2025-02-19,UEFA Champions League,Second leg,H,Brest,True,7,0,W,FT,4,3,1381451747
+2025-02-23_lyon,2024-25,2025-02-23,Ligue 1,23,A,Lyon,True,3,2,W,FT,4,3,1381451747
+2025-02-26_stade-briochin,2024-25,2025-02-26,Coupe de France,Quarter-finals,A,Stade Briochin,True,7,0,W,FT,3,3,1381451747
+2025-03-01_lille,2024-25,2025-03-01,Ligue 1,24,H,Lille,True,4,1,W,FT,3,4,1381451747
+2025-03-05_liverpool,2024-25,2025-03-05,UEFA Champions League,First leg,H,Liverpool,True,0,1,L,FT,4,4,1381451747
+2025-03-08_rennes,2024-25,2025-03-08,Ligue 1,25,A,Rennes,True,4,1,W,FT,3,4,1381451747
+2025-03-11_liverpool,2024-25,2025-03-11,UEFA Champions League,Second leg,A,Liverpool,True,1,0,W,PEN,3,4,1381451747
+2025-03-16_marseille,2024-25,2025-03-16,Ligue 1,26,H,Marseille,True,3,1,W,FT,5,3,1381451747
+2025-03-29_saint-etienne,2024-25,2025-03-29,Ligue 1,27,A,Saint-Étienne,True,6,1,W,FT,13,1,1381451747
+2025-04-01_dunkerque,2024-25,2025-04-01,Coupe de France,Semi-finals,A,Dunkerque,True,4,2,W,FT,3,1,1381451747
+2025-04-05_angers,2024-25,2025-04-05,Ligue 1,28,H,Angers,True,1,0,W,FT,4,2,1381451747
+2025-04-09_aston-villa,2024-25,2025-04-09,UEFA Champions League,First leg,H,Aston Villa,True,3,1,W,FT,4,3,1381451747
+2025-04-15_aston-villa,2024-25,2025-04-15,UEFA Champions League,Second leg,A,Aston Villa,True,2,3,L,FT,6,3,1381451747
+2025-04-19_le-havre,2024-25,2025-04-19,Ligue 1,30,H,Le Havre,True,2,1,W,FT,4,3,1381451747
+2025-04-22_nantes,2024-25,2025-04-22,Ligue 1,29,A,Nantes,True,1,1,D,FT,3,3,1381451747
+2025-04-25_nice,2024-25,2025-04-25,Ligue 1,31,H,Nice,True,1,3,L,FT,3,3,1381451747
+2025-04-29_arsenal,2024-25,2025-04-29,UEFA Champions League,First leg,A,Arsenal,True,1,0,W,FT,4,4,1381451747
+2025-05-03_strasbourg,2024-25,2025-05-03,Ligue 1,32,A,Strasbourg,True,1,2,L,FT,4,4,1381451747
+2025-05-07_arsenal,2024-25,2025-05-07,UEFA Champions League,Second leg,H,Arsenal,True,2,1,W,FT,4,3,1381451747
+2025-05-10_montpellier,2024-25,2025-05-10,Ligue 1,33,A,Montpellier,True,4,1,W,FT,3,3,1381451747
+2025-05-17_auxerre,2024-25,2025-05-17,Ligue 1,34,H,Auxerre,True,3,1,W,FT,7,3,1381451747
+2025-05-24_reims,2024-25,2025-05-24,Coupe de France,Final,N,Reims,True,3,0,W,FT,7,2,1381451747
+2025-05-31_inter-milan,2024-25,2025-05-31,UEFA Champions League,Final,N,Inter Milan,True,5,0,W,FT,7,2,1381451747
+2025-06-15_atletico-madrid,2024-25,2025-06-15,FIFA Club World Cup,1,N,Atlético Madrid,True,4,0,W,FT,15,0,1381451747
+2025-06-19_botafogo,2024-25,2025-06-19,FIFA Club World Cup,2,N,Botafogo,True,0,1,L,FT,4,1,1381451747
+2025-06-23_seattle-sounders-fc,2024-25,2025-06-23,FIFA Club World Cup,3,N,Seattle Sounders FC,True,2,0,W,FT,4,2,1381451747
+2025-06-29_inter-miami-cf,2024-25,2025-06-29,FIFA Club World Cup,Round of 16,N,Inter Miami CF,True,4,0,W,FT,6,3,1381451747
+2025-07-05_bayern-munich,2024-25,2025-07-05,FIFA Club World Cup,Quarter-finals,N,Bayern Munich,True,2,0,W,FT,6,2,1381451747
+2025-07-09_real-madrid,2024-25,2025-07-09,FIFA Club World Cup,Semi-finals,N,Real Madrid,True,4,0,W,FT,4,2,1381451747
+2025-07-13_chelsea,2024-25,2025-07-13,FIFA Club World Cup,Final,N,Chelsea,True,0,3,L,FT,4,3,1381451747
+2025-08-13_tottenham-hotspur,2025-26,2025-08-13,UEFA Super Cup,Final,N,Tottenham Hotspur,True,2,2,D,PEN,31,0,1381451969
+2025-08-17_nantes,2025-26,2025-08-17,Ligue 1,1,A,Nantes,True,1,0,W,FT,4,1,1381451969
+2025-08-22_angers,2025-26,2025-08-22,Ligue 1,2,H,Angers,True,1,0,W,FT,5,2,1381451969
+2025-08-30_toulouse,2025-26,2025-08-30,Ligue 1,3,A,Toulouse,True,6,3,W,FT,8,2,1381451969
+2025-09-14_lens,2025-26,2025-09-14,Ligue 1,4,H,Lens,True,2,0,W,FT,15,0,1381451969
+2025-09-17_atalanta,2025-26,2025-09-17,UEFA Champions League,1,H,Atalanta,True,4,0,W,FT,3,1,1381451969
+2025-09-22_marseille,2025-26,2025-09-22,Ligue 1,5,A,Marseille,True,0,1,L,FT,5,2,1381451969
+2025-09-27_auxerre,2025-26,2025-09-27,Ligue 1,6,H,Auxerre,True,2,0,W,FT,5,3,1381451969
+2025-10-01_barcelona,2025-26,2025-10-01,UEFA Champions League,2,A,Barcelona,True,2,1,W,FT,4,3,1381451969
+2025-10-05_lille,2025-26,2025-10-05,Ligue 1,7,A,Lille,True,1,1,D,FT,4,3,1381451969
+2025-10-17_strasbourg,2025-26,2025-10-17,Ligue 1,8,H,Strasbourg,True,3,3,D,FT,12,1,1381451969
+2025-10-21_bayer-leverkusen,2025-26,2025-10-21,UEFA Champions League,3,A,Bayer Leverkusen,True,7,2,W,FT,4,1,1381451969
+2025-10-25_brest,2025-26,2025-10-25,Ligue 1,9,A,Brest,True,3,0,W,FT,4,2,1381451969
+2025-10-29_lorient,2025-26,2025-10-29,Ligue 1,10,A,Lorient,True,1,1,D,FT,4,3,1381451969
+2025-11-01_nice,2025-26,2025-11-01,Ligue 1,11,H,Nice,True,1,0,W,FT,3,3,1381451969
+2025-11-04_bayern-munich,2025-26,2025-11-04,UEFA Champions League,4,H,Bayern Munich,True,1,2,L,FT,3,4,1381451969
+2025-11-09_lyon,2025-26,2025-11-09,Ligue 1,12,A,Lyon,True,3,2,W,FT,5,3,1381451969
+2025-11-22_le-havre,2025-26,2025-11-22,Ligue 1,13,H,Le Havre,True,3,0,W,FT,13,1,1381451969
+2025-11-26_tottenham-hotspur,2025-26,2025-11-26,UEFA Champions League,5,H,Tottenham Hotspur,True,5,3,W,FT,4,1,1381451969
+2025-11-29_monaco,2025-26,2025-11-29,Ligue 1,14,A,Monaco,True,0,1,L,FT,3,2,1381451969
+2025-12-06_rennes,2025-26,2025-12-06,Ligue 1,15,H,Rennes,True,5,0,W,FT,7,3,1381451969
+2025-12-10_athletic-bilbao,2025-26,2025-12-10,UEFA Champions League,6,A,Athletic Bilbao,True,0,0,D,FT,4,3,1381451969
+2025-12-13_metz,2025-26,2025-12-13,Ligue 1,16,A,Metz,True,3,2,W,FT,3,3,1381451969
+2025-12-17_flamengo,2025-26,2025-12-17,FIFA Intercontinental Cup,Final,N,Flamengo,True,1,1,D,PEN,4,3,1381451969
+2025-12-20_fontenay,2025-26,2025-12-20,Coupe de France,Round of 64,A,Fontenay,True,4,0,W,FT,3,4,1381451969
+2026-01-04_paris-fc,2025-26,2026-01-04,Ligue 1,17,H,Paris FC,True,2,1,W,FT,15,0,1381451969
+2026-01-08_marseille,2025-26,2026-01-08,Trophée des Champions,Final,N,Marseille,True,2,2,D,PEN,4,1,1381451969
+2026-01-12_paris-fc,2025-26,2026-01-12,Coupe de France,Round of 32,H,Paris FC,True,0,1,L,FT,4,2,1381451969
+2026-01-16_lille,2025-26,2026-01-16,Ligue 1,18,H,Lille,True,3,0,W,FT,4,3,1381451969
+2026-01-20_sporting-cp,2025-26,2026-01-20,UEFA Champions League,7,A,Sporting CP,True,1,2,L,FT,4,3,1381451969
+2026-01-23_auxerre,2025-26,2026-01-23,Ligue 1,19,A,Auxerre,True,1,0,W,FT,3,3,1381451969
+2026-01-28_newcastle-united,2025-26,2026-01-28,UEFA Champions League,8,H,Newcastle United,True,1,1,D,FT,5,3,1381451969
+2026-02-01_strasbourg,2025-26,2026-02-01,Ligue 1,20,A,Strasbourg,True,2,1,W,FT,4,3,1381451969
+2026-02-08_marseille,2025-26,2026-02-08,Ligue 1,21,H,Marseille,True,5,0,W,FT,7,2,1381451969
+2026-02-13_rennes,2025-26,2026-02-13,Ligue 1,22,A,Rennes,True,1,3,L,FT,5,2,1381451969
+2026-02-17_monaco,2025-26,2026-02-17,UEFA Champions League,First leg,A,Monaco,True,3,2,W,FT,4,2,1381451969
+2026-02-21_metz,2025-26,2026-02-21,Ligue 1,23,H,Metz,True,3,0,W,FT,4,3,1381451969
+2026-02-25_monaco,2025-26,2026-02-25,UEFA Champions League,Second leg,H,Monaco,True,2,2,D,FT,4,3,1381451969
+2026-02-28_le-havre,2025-26,2026-02-28,Ligue 1,24,A,Le Havre,True,1,0,W,FT,3,3,1381451969
+2026-03-06_monaco,2025-26,2026-03-06,Ligue 1,25,H,Monaco,True,1,3,L,FT,6,3,1381451969
+2026-03-11_chelsea,2025-26,2026-03-11,UEFA Champions League,First leg,H,Chelsea,True,5,2,W,FT,5,3,1381451969
+2026-03-17_chelsea,2025-26,2026-03-17,UEFA Champions League,Second leg,A,Chelsea,True,3,0,W,FT,6,2,1381451969
+2026-03-21_nice,2025-26,2026-03-21,Ligue 1,27,A,Nice,True,4,0,W,FT,4,2,1381451969
+2026-04-03_toulouse,2025-26,2026-04-03,Ligue 1,28,H,Toulouse,True,3,1,W,FT,13,1,1381451969
+2026-04-08_liverpool,2025-26,2026-04-08,UEFA Champions League,First leg,H,Liverpool,True,2,0,W,FT,5,1,1381451969
+2026-04-14_liverpool,2025-26,2026-04-14,UEFA Champions League,Second leg,A,Liverpool,True,2,0,W,FT,6,2,1381451969
+2026-04-19_lyon,2025-26,2026-04-19,Ligue 1,30,H,Lyon,True,1,2,L,FT,5,2,1381451969
+2026-04-22_nantes,2025-26,2026-04-22,Ligue 1,26,H,Nantes,True,3,0,W,FT,3,3,1381451969
+2026-04-25_angers,2025-26,2026-04-25,Ligue 1,31,A,Angers,True,3,0,W,FT,3,3,1381451969
+2026-04-28_bayern-munich,2025-26,2026-04-28,UEFA Champions League,First leg,H,Bayern Munich,True,5,4,W,FT,3,4,1381451969
+2026-05-02_lorient,2025-26,2026-05-02,Ligue 1,32,H,Lorient,True,2,2,D,FT,4,4,1381451969
+2026-05-06_bayern-munich,2025-26,2026-05-06,UEFA Champions League,Second leg,A,Bayern Munich,True,1,1,D,FT,4,4,1381451969
+2026-05-10_brest,2025-26,2026-05-10,Ligue 1,33,H,Brest,True,1,0,W,FT,4,3,1381451969
+2026-05-13_lens,2025-26,2026-05-13,Ligue 1,29,A,Lens,True,2,0,W,FT,3,3,1381451969
+2026-05-17_paris-fc,2025-26,2026-05-17,Ligue 1,34,A,Paris FC,True,1,2,L,FT,4,3,1381451969
+2026-05-30_arsenal,2025-26,2026-05-30,UEFA Champions League,Final,N,Arsenal,True,1,1,D,PEN,13,1,1381451969
+2026-08-12_aston-villa,2026-27,2026-08-12,UEFA Super Cup,Final,N,Aston Villa,True,2,1,W,FT,74,0,1383293947
+2026-08-16_lens,2026-27,2026-08-16,Trophée des Champions,Final,N,Lens,True,0,1,L,FT,4,1,1383293947
+2026-08-23_rennes,2026-27,2026-08-23,Ligue 1,1,A,Rennes,True,2,2,D,FT,7,2,1383293947
+2026-08-28_lille,2026-27,2026-08-28,Ligue 1,2,A,Lille,True,2,2,D,FT,5,2,1383293947
+2026-09-04_monaco,2026-27,2026-09-04,Ligue 1,3,H,Monaco,True,1,2,L,FT,7,2,1383293947
+2026-09-09_slovan-bratislava,2026-27,2026-09-09,UEFA Champions League,1,H,Slovan Bratislava,True,6,1,W,FT,5,2,1383293947
+2026-09-13_brest,2026-27,2026-09-13,Ligue 1,4,A,Brest,True,1,0,W,FT,4,2,1383293947
+2026-09-20_marseille,2026-27,2026-09-20,Ligue 1,5,A,Marseille,True,2,1,W,FT,7,2,1383293947
+2026-10-10_le-mans,2026-27,2026-10-10,Ligue 1,6,H,Le Mans,True,3,1,W,FT,20,0,1383293947
+2026-10-14_manchester-city,2026-27,2026-10-14,UEFA Champions League,2,A,Manchester City,True,4,2,W,FT,4,1,1383293947
+2026-10-17_strasbourg,2026-27,2026-10-17,Ligue 1,7,A,Strasbourg,True,3,1,W,FT,3,2,1383293947
+2026-10-20_barcelona,2026-27,2026-10-20,UEFA Champions League,3,H,Barcelona,True,4,2,W,FT,3,3,1383293947
+2026-10-26_lyon,2026-27,2026-10-26,Ligue 1,8,H,Lyon,True,2,0,W,FT,6,3,1383293947
+2026-10-30_le-havre,2026-27,2026-10-30,Ligue 1,9,A,Le Havre,True,5,1,W,FT,4,3,1383293947

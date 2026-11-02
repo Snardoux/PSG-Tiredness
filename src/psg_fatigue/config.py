@@ -89,6 +89,8 @@ ALT_HIGH_LOAD_MAX_REST_DAYS = 4  # sensitivity
 LOAD_WINDOW_DAYS = 14
 HIGH_LOAD_MIN_MATCHES_IN_WINDOW = 4  # sensitivity: >= 4 official matches in 14 days
 SEASON_START_WINDOW_MATCHES = 8  # first 8 PSG Ligue 1 matches of a season
+UCL_ROTATION_WINDOW_DAYS = 4  # a Champions League match <= 4 days later (rotation risk)
+POST_CWC_SEASON = "2025-26"  # season that started ~1 month after the 2025 Club World Cup
 
 # --- Statistics -----------------------------------------------------------------
 BOOTSTRAP_RESAMPLES = 10_000
