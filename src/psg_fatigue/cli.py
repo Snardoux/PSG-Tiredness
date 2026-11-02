@@ -10,7 +10,7 @@ import argparse
 import logging
 import sys
 
-from psg_fatigue import config
+from psg_fatigue import config, pipeline, quality
 from psg_fatigue.collect import snapshot
 
 logger = logging.getLogger(__name__)
@@ -77,10 +77,18 @@ def run_command(args: argparse.Namespace) -> int:
     try:
         if command == "collect":
             return run_collect(args.register_manual)
-    except snapshot.SnapshotError as error:
+        if command in ("build", "all"):
+            snapshot_id: str | None = args.snapshot
+            if snapshot_id is None:
+                logger.error("No snapshot id: set config.SNAPSHOT_ID or pass --snapshot")
+                return 1
+            pipeline.run_build(snapshot_id)
+            if command == "build":
+                return 0
+    except (snapshot.SnapshotError, quality.QualityCheckError) as error:
         logger.error("%s", error)
         return 1
-    # Remaining pipeline steps are wired in as they are implemented (phases 2 to 4).
+    # Remaining pipeline steps are wired in as they are implemented (phases 3 and 4).
     logger.error("Command %r is not implemented yet.", command)
     return 2
 
