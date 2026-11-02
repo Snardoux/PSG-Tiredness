@@ -10,3 +10,4 @@ PSG matches with more than 9 goals for a team,0,ok
 F1 rows with shots on target > shots,0,ok
 "closing-average odds outside (1.01, 50]",0,ok
 "closing-average overround outside [0, 0.15]",0,ok
+"rest days < 2, or > 30 outside season openers (Luis Enrique era)",0,ok

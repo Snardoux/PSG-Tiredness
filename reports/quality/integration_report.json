@@ -1,0 +1,34 @@
+{
+  "left_source": "football-data.co.uk, PSG Ligue 1 matches (fd_psg)",
+  "right_source": "Wikipedia, PSG Ligue 1 played matches with load features",
+  "join_key": [
+    "match_date",
+    "opponent_canonical"
+  ],
+  "left_rows": 111,
+  "right_rows": 111,
+  "matched_exact": 111,
+  "matched_plus_minus_1d": 0,
+  "matched_total": 111,
+  "match_rate_left_pct": 100.0,
+  "match_rate_right_pct": 100.0,
+  "left_only_rows": 0,
+  "right_only_rows": 0,
+  "row_multiplication": false,
+  "rows_after_join_le_left_rows": true,
+  "score_or_venue_mismatches": 0,
+  "plus_minus_1d_matches": [],
+  "left_only": [],
+  "right_only": [],
+  "score_or_venue_mismatch_rows": [],
+  "rows_dropped": [
+    {
+      "reason": "football-data match without Wikipedia partner",
+      "rows": 0
+    },
+    {
+      "reason": "Wikipedia match without football-data partner",
+      "rows": 0
+    }
+  ]
+}
