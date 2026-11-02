@@ -1,0 +1,12 @@
+check,value,status
+"F1 duplicates on (Date, HomeTeam, AwayTeam)",0,ok
+F1 same home/away pairing twice in a season,0,ok
+"calendar duplicates on (date, competition, opponent)",0,ok
+calendar near duplicates (same opponent+competition <= 3 days),0,ok
+Wikipedia result field != result from parsed score,0,ok
+unplayed fixtures dated before the snapshot,0,ok
+F1 matches with more than 9 goals for a team,0,ok
+PSG matches with more than 9 goals for a team,0,ok
+F1 rows with shots on target > shots,0,ok
+"closing-average odds outside (1.01, 50]",0,ok
+"closing-average overround outside [0, 0.15]",0,ok
