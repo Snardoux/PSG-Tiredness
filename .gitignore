@@ -1,0 +1,31 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Secrets (none are needed, but never commit them)
+.env
+.env.*
+
+# Pipeline intermediate tables (rebuilt by `uv run psg-fatigue build`)
+data/interim/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Tableau temporary / backup files (the packaged .twbx IS committed)
+*.twbr
+*.tmp
+~$*
