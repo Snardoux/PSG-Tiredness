@@ -1,0 +1,157 @@
+<!-- Real excerpts copied verbatim from snapshot 2026-11-02: headings and match boxes
+     from wiki_2025-26.json, except the friendly and the unplayed Champions League
+     fixture, which come from wiki_2026-27.json. -->
+== Pre-season and friendlies ==
+{{Football box collapsible
+|round = [[Exhibition game#Club football|Friendly]]
+|date = 5 August 2026
+|time = 21:00 [[Central European Summer Time|CEST]] ([[UTC+02:00|UTC+2]])
+|team1 = [[RCD Mallorca|Mallorca]]
+|score = 3–0
+|report = https://www.psg.fr/en/matches/mens-football/2026/mallorca-vs-paris-2026-08-05
+|team2 = Paris Saint-Germain
+|goals1 =
+*[[Zito Luvumbo|Luvumbo]] {{goal|21}}
+*[[Jan Virgili|Virgili]] {{goal|40}}
+*[[Antonio Raíllo|Raíllo]] {{goal|51}}
+*[[Antoniu Roca|Roca]] {{yel|62}}
+|goals2 =
+|stadium = [[Estadi Mallorca Son Moix]]
+|location = [[Palma de Mallorca|Palma]], Spain
+|attendance = 17,524
+|referee = Víctor García Verdura ([[Royal Spanish Football Federation|Spain]])
+|result = L
+}}
+== Competitions ==
+=== Overall record ===
+{{Fb overview2
+|c=5
+|c1=[[2025–26 Ligue 1|Ligue 1]] |fm1=17 August 2025 |lm1=17 May 2026 |sr1=Matchday 1 |fp1=Winners |w1=24 |d1=4 |l1=6 |f1=74 |a1=29
+|c2=[[2025–26 Coupe de France|Coupe de France]] |fm2=20 December 2025 |lm2=12 January 2026 |sr2=Round of 64 |fp2=Round of 32 |w2=1 |d2=0 |l2=1 |f2=4 |a2=1
+|c3=[[2025 Trophée des Champions|Trophée des Champions]] |dm3=8 January 2026 |sr3=Final |fp3=Winners |w3=0 |d3=1 |l3=0 |f3=2 |a3=2
+|c4=[[2025–26 UEFA Champions League|UEFA Champions League]] |fm4=17 September 2025 |lm4=30 May 2026 |sr4=League phase |fp4=Winners |w4=10 |d4=5 |l4=2 |f4=45 |a4=23
+|c5=[[2025 UEFA Super Cup|UEFA Super Cup]] |dm5=13 August 2025  |sr5=Final |fp5=Winners |w5=0 |d5=1 |l5=0 |f5=2 |a5=2
+|c6=[[2025 FIFA Intercontinental Cup|FIFA Intercontinental Cup]] |dm6=17 December 2025 |sr6=Final |fp6=Winners |w6=0 |d6=1 |l6=0 |f6=1 |a6=1
+|s=[https://int.soccerway.com/teams/france/paris-saint-germain-fc/886/ Soccerway]
+}}
+=== Ligue 1 ===
+====Matches====
+{{Football box collapsible
+|round = 1
+|date = 17 August 2025
+|time = 20:45 [[Central European Summer Time|CEST]] ([[UTC+02:00|UTC+2]])
+|team1 = [[FC Nantes|Nantes]]
+|score = 0–1
+|report = https://ligue1.com/match-sheet/l1_championship_match_73123
+|team2 = Paris Saint-Germain
+|goals1 =
+*[[Kelvin Amian|Amian]] {{yel|45+1}}
+|goals2 =
+*[[Vitinha (footballer, born February 2000)|Vitinha]] {{goal|67}}
+*[[Achraf Hakimi|Hakimi]] {{yel|80}}
+|stadium = [[Stade de la Beaujoire]]
+|location = [[Nantes]]
+|attendance = 34,053
+|referee = [[Benoît Bastien]]
+|result = W
+}}
+{{Football box collapsible
+|round = 26
+|date = 22 April 2026
+|time = 19:00 [[Central European Time|CET]] ([[UTC+01:00|UTC+1]])
+|team1 = Paris Saint-Germain
+|score = 3–0
+|report = https://ligue1.com/match-sheet/l1_championship_match_73348
+|team2 = [[FC Nantes|Nantes]]
+|goals1 =
+*[[Khvicha Kvaratskhelia|Kvaratskhelia]] {{goal|13|pen.|50}}
+*[[Warren Zaïre-Emery|Zaïre-Emery]] {{yel|35}}
+*[[Désiré Doué|Doué]] {{goal|37}}
+*[[Illia Zabarnyi|Zabarnyi]] {{yel|41}}
+|goals2 =
+*[[Frédéric Guilbert|Guilbert]] {{yel|46}}
+|stadium = [[Parc des Princes]]
+|location = [[Paris]]
+|attendance = 47,388
+|referee = [[Clément Turpin]]
+|result = W
+|note = The match was originally scheduled for 15 March 2026, but was postponed due to Paris Saint-Germain's involvement in the [[2025–26 UEFA Champions League|UEFA Champions League]].
+}}
+=== Coupe de France ===
+{{Football box collapsible
+|round = [[2025–26 Coupe de France#Round of 64|Round of 64]]
+|date = 20 December 2025 
+|time = 21:00 [[Central European Time|CET]] ([[UTC+01:00|UTC+1]])
+|team1 = [[Vendée Fontenay Foot|Fontenay]]
+|score = 0–4
+|report = https://epreuves.fff.fr/competition/match/55235485-vendee-fontenay-foot-paris-saint-germain-fc/match
+|team2 = Paris Saint-Germain
+|goals1 =
+*[[Antonin Moisdon|Moisdon]] {{yel|78}}
+|goals2 =
+*[[Désiré Doué|Doué]] {{goal|25}}
+*[[Ousmane Dembélé|Dembélé]] {{goal|34|pen.}}
+*[[Gonçalo Ramos|Ramos]] {{goal|53||58}}
+|stadium = [[Stade de la Beaujoire]]
+|location = [[Nantes]]
+|attendance = 34,601
+|referee = [[Jérémy Stinat]]
+|result = W
+}}
+=== UEFA Champions League ===
+==== League phase ====
+{{Football box collapsible
+|round = [[2026–27 UEFA Champions League league phase#Villarreal v Paris Saint-Germain|4]]
+|date = 3 November 2026
+|time = 21:00 [[Central European Time|CET]] ([[UTC+01:00|UTC+1]])
+|team1 = [[Villarreal CF|Villarreal]] {{fbaicon|ESP}}
+|score = 
+|report = https://www.uefa.com/uefachampionsleague/match/2049612/
+|team2 = {{fbaicon|FRA}} Paris Saint-Germain
+|goals1 =
+|goals2 =
+|stadium = [[Estadio de la Cerámica]]
+|location = [[Villarreal]], Spain
+|attendance = 
+|referee = [[Felix Zwayer]] ([[German Football Association|Germany]])
+|result = 
+}}
+===UEFA Super Cup===
+{{Football box collapsible
+|round = [[2025 UEFA Super Cup#Match|Final]]
+|date = 13 August 2025
+|time = 21:00 [[Central European Summer Time|CEST]] ([[UTC+02:00|UTC+2]])
+|team1 = Paris Saint-Germain {{fbaicon|FRA}} 
+|score = 2–2
+|report = https://www.uefa.com/uefasupercup/match/2045107/
+|team2 = {{fbaicon|ENG}} [[Tottenham Hotspur F.C.|Tottenham Hotspur]]
+|goals1 =
+*[[Bradley Barcola|Barcola]] {{yel|55}}
+*[[Willian Pacho|Pacho]] {{yel|58}}
+*[[Lee Kang-in|Lee]] {{goal|85}}
+*[[Ousmane Dembélé|Dembélé]] {{yel|90}}
+*[[Gonçalo Ramos|Ramos]] {{goal|90+4}}
+|goals2 =
+*[[Micky van de Ven|Van de Ven]] {{goal|39}}
+*[[Cristian Romero|Romero]] {{goal|48}} 
+*[[Richarlison]] {{yel|53}}
+*[[Kevin Danso|Danso]] {{yel|62}}
+|penaltyscore = 4–3
+|penalties1 = 
+*[[Vitinha (footballer, born February 2000)|Vitinha]] {{penmiss}}
+*[[Gonçalo Ramos|Ramos]] {{pengoal}} 
+*[[Ousmane Dembélé|Dembélé]] {{pengoal}} 
+*[[Lee Kang-in|Lee]] {{pengoal}}
+*[[Nuno Mendes (footballer, born 2002)|Mendes]] {{pengoal}}
+|penalties2 =
+*{{pengoal}} [[Dominic Solanke|Solanke]] 
+*{{pengoal}} [[Rodrigo Bentancur|Bentancur]] 
+*{{penmiss}} [[Micky van de Ven|Van de Ven]]
+*{{penmiss}} [[Mathys Tel|Tel]]
+*{{pengoal}} [[Pedro Porro|Porro]]
+|stadium = [[Stadio Friuli]]
+|location = [[Udine]], Italy
+|attendance = 21,025
+|referee = [[João Pinheiro (referee)|João Pinheiro]]  ([[Portuguese Football Federation|Portugal]])
+|result = D
+}}

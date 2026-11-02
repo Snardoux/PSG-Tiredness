@@ -20,6 +20,33 @@ LUIS_ENRIQUE_APPOINTMENT = date(2023, 7, 5)
 CONTEXT_SEASON = "2022-23"
 ANALYSIS_SEASONS: tuple[str, ...] = ("2023-24", "2024-25", "2025-26", "2026-27")
 WIKI_SEASONS: tuple[str, ...] = (CONTEXT_SEASON, *ANALYSIS_SEASONS)
+COMPLETE_SEASONS: tuple[str, ...] = ("2023-24", "2024-25", "2025-26")  # 2026-27 is partial
+
+# --- Official competitions (see docs/FRAMING.md) ------------------------------
+# Section headings of the Wikipedia season pages that hold official matches.
+OFFICIAL_COMPETITIONS: tuple[str, ...] = (
+    "Ligue 1",
+    "Coupe de France",
+    "Trophée des Champions",
+    "UEFA Champions League",
+    "UEFA Super Cup",
+    "FIFA Club World Cup",
+    "FIFA Intercontinental Cup",
+)
+LEAGUE = "Ligue 1"
+# Headings whose matches are excluded (friendlies are not official matches).
+EXCLUDED_HEADINGS: tuple[str, ...] = ("Pre-season and friendlies", "Pre-season", "Friendlies")
+# One-off competitions played at a neutral venue (finals of CL / CdF are added by round).
+NEUTRAL_COMPETITIONS: tuple[str, ...] = (
+    "Trophée des Champions",
+    "UEFA Super Cup",
+    "FIFA Club World Cup",
+    "FIFA Intercontinental Cup",
+)
+
+# --- Expected counts (stop and investigate if they do not match) ---------------
+L1_MATCHES_PER_SEASON = 306  # 18 clubs since 2023-24
+PSG_L1_MATCHES_PER_SEASON = 34
 
 # --- Source 1: Wikipedia (MediaWiki Action API) ---------------------------------
 WIKI_API_URL = "https://en.wikipedia.org/w/api.php"
@@ -42,6 +69,9 @@ def wiki_page_title(season: str) -> str:
     return f"{start}{EN_DASH}{end} Paris Saint-Germain FC season"
 
 
+WIKI_PSG_NAME = "Paris Saint-Germain"  # team label inside the match boxes
+
+
 # --- Source 2: football-data.co.uk (downloaded CSV files) ---------------------
 FD_URL_TEMPLATE = "https://www.football-data.co.uk/mmz4281/{code}/F1.csv"
 FD_SEASON_CODES: dict[str, str] = {
@@ -50,6 +80,8 @@ FD_SEASON_CODES: dict[str, str] = {
     "2025-26": "2526",
     "2026-27": "2627",
 }
+FD_PSG_LABEL = "Paris SG"  # verified in every file of snapshot 2026-11-02
+FD_PARIS_FC_LABEL = "Paris FC"  # a different club (Ligue 1 since 2025-26), never PSG
 
 # --- Load definitions (see docs/FRAMING.md, do not change without the author) --
 HIGH_LOAD_MAX_REST_DAYS = 3  # primary: Champions League Wednesday -> Ligue 1 Saturday
