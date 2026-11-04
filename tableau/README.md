@@ -1,9 +1,10 @@
 # Tableau workbook
 
-`psg_fatigue.twbx` is a **packaged workbook with extracts**, built manually in Tableau Desktop by
-Sacha Nardoux from the pipeline outputs. It opens on its own (the data is inside the package); the
-full specification — views, calculated fields, filters, default state — is in
-[`docs/TABLEAU.md`](../docs/TABLEAU.md).
+`psg_fatigue.twbx` is a **packaged workbook** (the four CSV files below are embedded in the
+package, no `.hyper` extract), built manually in Tableau Desktop by Sacha Nardoux from the pipeline
+outputs. It opens on its own; it contains two dashboards (*1 · Load and results*, *2 · Did the
+market see it coming?*) and a *Check* sheet. The full specification — views, calculated fields,
+filters, default state — is in [`docs/TABLEAU.md`](../docs/TABLEAU.md).
 
 ## Data sources
 
@@ -22,8 +23,8 @@ File format: comma-separated, UTF-8, dates as `YYYY-MM-DD`, booleans as `True` /
 
 ## Open
 1. Open `tableau/psg_fatigue.twbx` in Tableau Desktop (or Tableau Reader).
-2. Check the default state before reading numbers: all seasons, both venues, parameter
-   `Rest threshold` = **3** (the pipeline definition of high load; 4 = sensitivity).
+2. Check the default state before reading numbers: all seasons, parameter `Rest threshold` = **3**
+   (the pipeline definition of high load; 4 = sensitivity).
 
 ## Reconnect (after cloning the repository elsewhere)
 1. *Data → `<data source>` → Edit Data Source…*
@@ -34,7 +35,7 @@ File format: comma-separated, UTF-8, dates as `YYYY-MM-DD`, booleans as `True` /
 ## Refresh (after re-running the pipeline)
 1. From the repository root: `uv run psg-fatigue all` (offline, rebuilds every CSV above from the
    frozen raw snapshot).
-2. In Tableau: *Data → Refresh All Extracts*.
-3. Check that the numbers in the views match `reports/eda/EDA_REPORT.md` (for example 28 high-load
-   matches and a high-load mean residual of +0.084 with the snapshot `2026-11-02`).
+2. In Tableau: reconnect each data source to the rebuilt CSV (see above), then *Data → Refresh*.
+3. Check on the *Check* sheet that the numbers match `reports/eda/EDA_REPORT.md` (for example 28
+   high-load matches and a high-load mean residual of +0.084 with the snapshot `2026-11-02`).
 4. Save the package again: *File → Export Packaged Workbook…* → `tableau/psg_fatigue.twbx`.

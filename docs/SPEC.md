@@ -43,7 +43,7 @@ psg-fatigue/
 │   ├── fixtures/             # small wikitext snippets and CSV extracts (real excerpts)
 │   └── test_*.py
 ├── tableau/
-│   ├── psg_fatigue.twbx      # built manually in Tableau Desktop (packaged, with extract)
+│   ├── psg_fatigue.twbx      # built manually in Tableau Desktop (packaged, CSV data embedded)
 │   └── README.md             # how to open / reconnect / refresh
 └── docs/                     # FRAMING, SPEC, SOURCES, QUALITY_NOTE, TABLEAU, FINDINGS
 ```

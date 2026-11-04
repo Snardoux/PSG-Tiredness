@@ -123,9 +123,9 @@ Wikipedia contributors); football-data files are offered free of charge (credit:
 
 ## Tableau
 
-The dashboard (`tableau/psg_fatigue.twbx`, packaged with extracts) reads the CSV files above; it
-recomputes nothing that the pipeline already computes (confidence intervals come from
-`summary_by_bucket.csv`). Specification of the views, calculated fields and filters:
+The workbook (`tableau/psg_fatigue.twbx`, two dashboards, packaged with the CSV files above) reads
+only pipeline outputs and recomputes nothing that the pipeline already computes (confidence
+intervals come from `summary_by_bucket.csv`). Specification of the views, calculated fields and filters:
 [`docs/TABLEAU.md`](docs/TABLEAU.md). How to open, reconnect and refresh it:
 [`tableau/README.md`](tableau/README.md).
 
